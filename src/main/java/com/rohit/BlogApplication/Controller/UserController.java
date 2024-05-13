@@ -1,8 +1,8 @@
-package com.example.BlogApplication.Controller;
+package com.rohit.BlogApplication.Controller;
 
-import com.example.BlogApplication.Payloads.ApiResponse;
-import com.example.BlogApplication.Payloads.UserDTO;
-import com.example.BlogApplication.Services.UserService;
+import com.rohit.BlogApplication.Payloads.ApiResponse;
+import com.rohit.BlogApplication.Payloads.UserDTO;
+import com.rohit.BlogApplication.Services.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

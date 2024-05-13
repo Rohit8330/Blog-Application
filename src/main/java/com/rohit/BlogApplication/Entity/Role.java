@@ -1,4 +1,4 @@
-package com.example.BlogApplication.Entity;
+package com.rohit.BlogApplication.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

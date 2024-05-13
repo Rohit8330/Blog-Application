@@ -1,4 +1,4 @@
-package com.example.BlogApplication.Exceptions;
+package com.rohit.BlogApplication.Exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
     String resourceName;

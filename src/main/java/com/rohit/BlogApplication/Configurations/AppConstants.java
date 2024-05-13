@@ -1,4 +1,4 @@
-package com.example.BlogApplication.Configurations;
+package com.rohit.BlogApplication.Configurations;
 
 public class AppConstants {
 }

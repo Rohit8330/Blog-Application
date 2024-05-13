@@ -1,6 +1,6 @@
-//package com.example.BlogApplication.Configurations;
+//package com.rohit.BlogApplication.Configurations;
 //
-//import com.example.BlogApplication.Security.CustomUserDetailService;
+//import com.rohit.BlogApplication.Security.CustomUserDetailService;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;

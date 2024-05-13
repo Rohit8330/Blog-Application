@@ -1,6 +1,6 @@
-package com.example.BlogApplication.Exceptions;
+package com.rohit.BlogApplication.Exceptions;
 
-import com.example.BlogApplication.Payloads.ApiResponse;
+import com.rohit.BlogApplication.Payloads.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

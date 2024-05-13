@@ -1,10 +1,10 @@
-package com.example.BlogApplication.Services.Impl;
+package com.rohit.BlogApplication.Services.Impl;
 
-import com.example.BlogApplication.Entity.User;
-import com.example.BlogApplication.Exceptions.ResourceNotFoundException;
-import com.example.BlogApplication.Payloads.UserDTO;
-import com.example.BlogApplication.Repository.UserRepo;
-import com.example.BlogApplication.Services.UserService;
+import com.rohit.BlogApplication.Entity.User;
+import com.rohit.BlogApplication.Exceptions.ResourceNotFoundException;
+import com.rohit.BlogApplication.Payloads.UserDTO;
+import com.rohit.BlogApplication.Repository.UserRepo;
+import com.rohit.BlogApplication.Services.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

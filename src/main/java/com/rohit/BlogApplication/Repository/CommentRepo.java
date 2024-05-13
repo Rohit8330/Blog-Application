@@ -1,6 +1,6 @@
-package com.example.BlogApplication.Repository;
+package com.rohit.BlogApplication.Repository;
 
-import com.example.BlogApplication.Entity.Comment;
+import com.rohit.BlogApplication.Entity.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CommentRepo extends JpaRepository<Comment, Integer> {

@@ -1,9 +1,9 @@
-package com.example.BlogApplication.Services;
+package com.rohit.BlogApplication.Services;
 
-import com.example.BlogApplication.Entity.Post;
-import com.example.BlogApplication.Payloads.PostDTO;
-import com.example.BlogApplication.Payloads.PostResponse;
-import com.example.BlogApplication.Payloads.TagsDTO;
+import com.rohit.BlogApplication.Entity.Post;
+import com.rohit.BlogApplication.Payloads.PostDTO;
+import com.rohit.BlogApplication.Payloads.PostResponse;
+import com.rohit.BlogApplication.Payloads.TagsDTO;
 
 import java.util.List;
 

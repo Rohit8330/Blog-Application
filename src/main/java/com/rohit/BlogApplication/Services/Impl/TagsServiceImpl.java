@@ -1,10 +1,10 @@
-package com.example.BlogApplication.Services.Impl;
+package com.rohit.BlogApplication.Services.Impl;
 
-import com.example.BlogApplication.Entity.Tags;
-import com.example.BlogApplication.Exceptions.ResourceNotFoundException;
-import com.example.BlogApplication.Payloads.TagsDTO;
-import com.example.BlogApplication.Repository.TagsRepo;
-import com.example.BlogApplication.Services.TagsService;
+import com.rohit.BlogApplication.Entity.Tags;
+import com.rohit.BlogApplication.Exceptions.ResourceNotFoundException;
+import com.rohit.BlogApplication.Payloads.TagsDTO;
+import com.rohit.BlogApplication.Repository.TagsRepo;
+import com.rohit.BlogApplication.Services.TagsService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

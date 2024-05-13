@@ -1,7 +1,7 @@
-package com.example.BlogApplication.Services;
+package com.rohit.BlogApplication.Services;
 
-import com.example.BlogApplication.Payloads.TagsDTO;
-import com.example.BlogApplication.Payloads.UserDTO;
+import com.rohit.BlogApplication.Payloads.TagsDTO;
+import com.rohit.BlogApplication.Payloads.UserDTO;
 
 import java.util.List;
 

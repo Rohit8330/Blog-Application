@@ -1,6 +1,6 @@
-package com.example.BlogApplication.Services;
+package com.rohit.BlogApplication.Services;
 
-import com.example.BlogApplication.Payloads.UserDTO;
+import com.rohit.BlogApplication.Payloads.UserDTO;
 import java.util.List;
 
 public interface UserService {

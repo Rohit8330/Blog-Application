@@ -1,15 +1,15 @@
-package com.example.BlogApplication.Services.Impl;
+package com.rohit.BlogApplication.Services.Impl;
 
-import com.example.BlogApplication.Entity.Post;
-import com.example.BlogApplication.Entity.Tags;
-import com.example.BlogApplication.Entity.User;
-import com.example.BlogApplication.Exceptions.ResourceNotFoundException;
-import com.example.BlogApplication.Payloads.PostDTO;
-import com.example.BlogApplication.Payloads.PostResponse;
-import com.example.BlogApplication.Repository.PostRepo;
-import com.example.BlogApplication.Repository.TagsRepo;
-import com.example.BlogApplication.Repository.UserRepo;
-import com.example.BlogApplication.Services.PostService;
+import com.rohit.BlogApplication.Entity.Post;
+import com.rohit.BlogApplication.Entity.Tags;
+import com.rohit.BlogApplication.Entity.User;
+import com.rohit.BlogApplication.Exceptions.ResourceNotFoundException;
+import com.rohit.BlogApplication.Payloads.PostDTO;
+import com.rohit.BlogApplication.Payloads.PostResponse;
+import com.rohit.BlogApplication.Repository.PostRepo;
+import com.rohit.BlogApplication.Repository.TagsRepo;
+import com.rohit.BlogApplication.Repository.UserRepo;
+import com.rohit.BlogApplication.Services.PostService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

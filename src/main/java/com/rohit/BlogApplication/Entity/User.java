@@ -1,11 +1,11 @@
-package com.example.BlogApplication.Entity;
+package com.rohit.BlogApplication.Entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
+//import org.springframework.security.core.GrantedAuthority;
+//import org.springframework.security.core.authority.SimpleGrantedAuthority;
+//import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @Table(name = "users")
 @NoArgsConstructor
 @Data
-public class User implements UserDetails {
+public class User /*implements UserDetails*/ {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -33,46 +33,46 @@ public class User implements UserDetails {
     private String about;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<Post> posts = new ArrayList<>();
+    private List<com.rohit.BlogApplication.Entity.Post> posts = new ArrayList<>();
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<Comment> comments = new ArrayList<>();
+    private List<com.rohit.BlogApplication.Entity.Comment> comments = new ArrayList<>();
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private Set<Role> roles = new HashSet<>();
+    private Set<com.rohit.BlogApplication.Entity.Role> roles = new HashSet<>();
 
     // functions from userDetails.
-
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return this.roles
-                .stream().map(
-                        (role) -> new SimpleGrantedAuthority(role.getUserRole())
-                ).collect(Collectors.toList());
-    }
-
-    @Override
-    public String getUsername() {
-        return this.getEmail();
-    }
-
-    @Override
-    public boolean isAccountNonExpired() {
-        return true;
-    }
-
-    @Override
-    public boolean isAccountNonLocked() {
-        return true;
-    }
-
-    @Override
-    public boolean isCredentialsNonExpired() {
-        return true;
-    }
-
-    @Override
-    public boolean isEnabled() {
-        return true;
-    }
+//
+//    @Override
+//    public Collection<? extends GrantedAuthority> getAuthorities() {
+//        return this.roles
+//                .stream().map(
+//                        (role) -> new SimpleGrantedAuthority(role.getUserRole())
+//                ).collect(Collectors.toList());
+//    }
+//
+//    @Override
+//    public String getUsername() {
+//        return this.getEmail();
+//    }
+//
+//    @Override
+//    public boolean isAccountNonExpired() {
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean isAccountNonLocked() {
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean isCredentialsNonExpired() {
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean isEnabled() {
+//        return true;
+//    }
 }

@@ -1,7 +1,7 @@
-package com.example.BlogApplication.Payloads;
+package com.rohit.BlogApplication.Payloads;
 
-import com.example.BlogApplication.Entity.Post;
-import com.example.BlogApplication.Entity.User;
+import com.rohit.BlogApplication.Entity.Post;
+import com.rohit.BlogApplication.Entity.User;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
